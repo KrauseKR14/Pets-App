@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mavo.css"/>
+<script src="mavo.js"></script>
+<title>Mavo</title>
+</head>
+
+
+<main mv-storage="local" mv-app id="collector" class="mv-autoedit">
+	<h1>
+		The Best Pets
+	</h1>
+<article property="pet" mv-multiple>
+
+		<div id="item-description">
+
+
+			<p class="title-text">Animal: <span class="title-text" property="title">Animal</span></p>
+
+			<p class="title-text">Species: <span class="title-text" property=Species>Species</span></p>
+
+			<p class="title-text">Rating<span class="title-text">: [condition/10]</p>
+			<input type="range" property="condition" title="[condition]%" /><br/>
+			
+		</div>
+<!--Can recieve species and show picture. Try King Cobra, Husky, British Shorthair.-->
+		<div id="item-image">
+
+			<img src = "images/[Species].jpg" id="cb-image">
+
+
+			</div>
+			</article>
+</main>
+
+<body>
+
+</body>
+</html>
